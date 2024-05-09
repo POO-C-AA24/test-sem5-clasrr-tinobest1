@@ -11,17 +11,36 @@ import java.util.Scanner;
 public class Rep {
 
     public static void main(String[] args) {
+        Repdos.main(args);
 
         //el propetario que la solcion permita una infinidad de terrenos
-        Metodo t1 = new Metodo(40, 10, 2);
+       /* Metodo t1 = new Metodo(40, 10, 2);
         Metodo t2 = new Metodo(21, 12, 2);
-        Metodo t3 = new Metodo();
-        t1.calcularArea();
+        Metodo t3 = new Metodo(10, 10, 2);
+        Metodo arrayTerreno[] = new Metodo[3];//arreglo en objetos 
+        arrayTerreno[0] = t1;
+        arrayTerreno[1] = t2;
+        arrayTerreno[2] = t3;
+        for(Metodo terreno : arrayTerreno){
+            terreno.calcularArea();
+            terreno.calcularValorT();
+            System.out.println(terreno);
+        }
+        /*for (int i = 0; i > arrayTerreno.length; i++) {
+            arrayTerreno[i].calcularArea();
+            arrayTerreno[i].calcularValorT();
+            System.out.println(arrayTerreno[i]);*/
+            
+            
+        }
+        
+       /*xx  t1.calcularArea();
         t1.calcularValorT();
         System.out.println(t1);
         t2.calcularArea();
         t2.calcularValorT();
-        System.out.println(t2);
+        System.out.println(t2);*/
+        
         
        
        /* String op = "5";
@@ -46,7 +65,7 @@ public class Rep {
             op = entrada.next();*/
 
         }
-    }
+    
 
 
 
